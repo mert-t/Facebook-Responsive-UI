@@ -24,7 +24,7 @@ class Stories extends StatelessWidget {
         itemCount: 1 + stories.length,
         itemBuilder: (BuildContext context, int index) {
           if (index == 0) {
-            return Padding(
+            return Padding (
               padding: const EdgeInsets.symmetric(horizontal: 4.0),
               child: _StoryCard(
                 isAddStory: true,
