@@ -157,8 +157,10 @@ class _HomeScreenDesktop extends StatelessWidget {
         const Spacer(),
         Flexible(
           flex: 2,
-          child: Container(
-            color: Colors.green,
+          child: Padding(
+            padding: const EdgeInsets.all(12.0) ,
+            child: ContactsList(users: onlineUsers),
+            
           ),
         ),
       ],
