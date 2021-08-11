@@ -15,7 +15,7 @@ final List<User> onlineUsers = [
   User(
     name: 'Kultigin',
     imageUrl:
-        'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80',
+        'https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=0%2C0%2C1280%2C720&width=768',
   ),
   User(
     name: 'Matthew Hinkle',
